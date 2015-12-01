@@ -12,6 +12,10 @@
 		67A9D9241C0D31DB00B1D997 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67A9D9221C0D31DB00B1D997 /* Main.storyboard */; };
 		67A9D9261C0D31DC00B1D997 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67A9D9251C0D31DC00B1D997 /* Assets.xcassets */; };
 		67A9D9291C0D31DC00B1D997 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67A9D9271C0D31DC00B1D997 /* LaunchScreen.storyboard */; };
+		67A9D9331C0D322700B1D997 /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = 67A9D9301C0D322700B1D997 /* board.png */; };
+		67A9D9341C0D322700B1D997 /* o.png in Resources */ = {isa = PBXBuildFile; fileRef = 67A9D9311C0D322700B1D997 /* o.png */; };
+		67A9D9351C0D322700B1D997 /* x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67A9D9321C0D322700B1D997 /* x.png */; };
+		67A9D9371C0D333400B1D997 /* board1.png in Resources */ = {isa = PBXBuildFile; fileRef = 67A9D9361C0D333400B1D997 /* board1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		67A9D9251C0D31DC00B1D997 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67A9D9281C0D31DC00B1D997 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		67A9D92A1C0D31DC00B1D997 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67A9D9301C0D322700B1D997 /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		67A9D9311C0D322700B1D997 /* o.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = o.png; sourceTree = "<group>"; };
+		67A9D9321C0D322700B1D997 /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x.png; sourceTree = "<group>"; };
+		67A9D9361C0D333400B1D997 /* board1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				67A9D9251C0D31DC00B1D997 /* Assets.xcassets */,
 				67A9D9271C0D31DC00B1D997 /* LaunchScreen.storyboard */,
 				67A9D92A1C0D31DC00B1D997 /* Info.plist */,
+				67A9D9301C0D322700B1D997 /* board.png */,
+				67A9D9361C0D333400B1D997 /* board1.png */,
+				67A9D9311C0D322700B1D997 /* o.png */,
+				67A9D9321C0D322700B1D997 /* x.png */,
 			);
 			path = "Tic Tac Toe";
 			sourceTree = "<group>";
@@ -123,8 +135,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67A9D9351C0D322700B1D997 /* x.png in Resources */,
+				67A9D9341C0D322700B1D997 /* o.png in Resources */,
+				67A9D9331C0D322700B1D997 /* board.png in Resources */,
 				67A9D9291C0D31DC00B1D997 /* LaunchScreen.storyboard in Resources */,
 				67A9D9261C0D31DC00B1D997 /* Assets.xcassets in Resources */,
+				67A9D9371C0D333400B1D997 /* board1.png in Resources */,
 				67A9D9241C0D31DB00B1D997 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
